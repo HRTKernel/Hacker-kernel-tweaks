@@ -1,3 +1,12 @@
+# Copyright (c) 2020 thehacker911 <maikdiebenkorn@gmail.com>
+#
+# Make for Hacker Kernel
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 2 as
+# published by the Free Software Foundation.
+#
+
 echo 1024 > /proc/sys/net/ipv4/tcp_max_syn_backlog
 echo 2 > /proc/sys/net/ipv4/tcp_syn_retries
 echo 2 > /proc/sys/net/ipv4/tcp_synack_retries
