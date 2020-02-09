@@ -1,0 +1,4 @@
+echo 0 > /sys/block/sda/queue/rotational
+echo 1 > /sys/block/sda/queue/iostats
+echo 0 > /sys/block/sda/queue/nomerges
+echo 1 > /sys/block/sda/queue/rq_affinity
